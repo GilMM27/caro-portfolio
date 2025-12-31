@@ -5,11 +5,18 @@
   --foreground: #171717;
 }
 
+@theme {
+  --color-blue-caro: #0F56B3;
+  --color-gray-caro: #232323;
+  --color-tan-caro: #FFB3B3;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-atkinson: var(--font-atkinson-hyperlegible);
 }
 
 @media (prefers-color-scheme: dark) {
