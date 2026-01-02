@@ -1,6 +1,7 @@
 import Pill from "@/components/Pill";
 import Subtitle from "@/components/Subtitle";
 import Image from "next/image";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function sobremi() {
   return (
@@ -45,24 +46,184 @@ export default function sobremi() {
           className="h-36 object-contain w-fit -mt-20 -ml-13 -rotate-12"
         />
       </section>
-      <section className="grid grid-cols-2 mx-20 gap-10">
-        <div className="space-y-10 text-4xl">
-          <Subtitle>Educación</Subtitle>
-          <Pill>2021 - 2025</Pill>
-          <p className="-mt-4">
-            <span className="font-bold">Universidad de Monterrey (UDEM)</span>{" "}
-            <br />
-            Licenciatura en Diseño Industrial <br />
-            Beca de excelencia académica 90% <br />
-            Promedio acumulado de 96.97
-          </p>
-          <Subtitle>Experiencia formativa</Subtitle>
-        </div>
-        <div>
-          <Subtitle>Experiencia laboral</Subtitle>
-        </div>
+      <section className="mx-20 text-3xl">
+        <section className="grid grid-cols-2 gap-10">
+          <div className="space-y-10">
+            <Subtitle>Educación</Subtitle>
+            <Pill>2021 - 2025</Pill>
+            <div className="-mt-4">
+              <span className="font-bold">Universidad de Monterrey (UDEM)</span>
+              <br />
+              Licenciatura en Diseño Industrial
+              <br />
+              Beca de excelencia académica 90%
+              <br />
+              Promedio acumulado de 96.97
+            </div>
+            <Pill>2019 - 2021</Pill>
+            <div className="-mt-4">
+              <span className="font-bold">Preparatoria CETYS Universidad</span>
+              <br />
+              Ensenada, Baja California
+              <br />
+              Bachillerato Bilingüe
+              <br />
+            </div>
+            <Subtitle>Experiencia formativa</Subtitle>
+            <Pill>ene2025 - dic2025</Pill>
+            <div className="-mt-4">
+              <span className="font-bold">
+                Programa de Formadores de Grupos Estudiantiles
+              </span>
+              <br />
+              Programa institucional de liderazgo y acompañamiento académico
+              enfocado en el desarrollo humano de la comunidad universitaria.
+            </div>
+            <Pill>ene2023 - dic2023</Pill>
+            <div className="-mt-4">
+              <span className="font-bold">CampusLife UDEM</span>
+              <br />
+              Presidenta del grupo estudiantil más grande de la UDEM. Promueve
+              el sentido de pertenencia.
+            </div>
+            <div className="-mt-4">
+              <span className="font-bold">JUXNL UDEM</span>
+              <br />
+              Comunicación e imágen de un grupo estudiantil enfocado en el
+              servicio a la comunidad.
+            </div>
+            <div className="-mt-4">
+              <span className="font-bold">Redes CELES UDEM</span>
+              <br />
+              Desarrollo de contenido y estrategia de las redes sociales del
+              Centro de Liderazgo de la UDEM.
+            </div>
+            <Pill>ene2022 - dic2022</Pill>
+            <div className="-mt-4">
+              <span className="font-bold">CampusLife UDEM</span>
+              <br />
+              Responsable de actividades formativas.
+            </div>
+          </div>
+          <div className="space-y-10">
+            <Subtitle>Experiencia laboral</Subtitle>
+            <Pill>dic2024 - presente</Pill>
+            <div className="-mt-4">
+              <span className="font-bold">AG Media</span>
+              <br />
+              Diseñadora de contenido
+              <ul className="list-disc list-inside">
+                <li>Revisión de contenido</li>
+                <li>Administración</li>
+                <li>
+                  Diseño de miniaturas y publicaciones para redes sociales
+                </li>
+              </ul>
+            </div>
+            <Pill>ene2025 - sep2025</Pill>
+            <div className="-mt-4">
+              <span className="font-bold">Baja Norte Brand</span>
+              <br />
+              Community Manager / Diseño de contenido
+              <ul className="list-disc list-inside">
+                <li>Manejo de redes sociales</li>
+                <li>Creación de contenido</li>
+                <li>Planeaciones</li>
+              </ul>
+            </div>
+            <Pill>ene2024 - jun2025</Pill>
+            <div className="-mt-4">
+              <span className="font-bold">Residencias UDEM</span>
+              <br />
+              Residente formador. Trabajo medio tiempo
+              <ul className="list-disc list-inside">
+                <li>Función administrativa</li>
+              </ul>
+              {">"} Regulación de los estándares de vida comunitaria
+              <br />
+              {">"} Check ins y Check outs
+              <br />
+              {">"} Inspecciones
+              <ul className="list-disc list-inside">
+                <li>Función de acompañamiento</li>
+              </ul>
+              {">"} Orientación a Nuevo Ingreso
+              <br />
+              {">"} Actividades semanales
+              <br />
+              {">"} Club de cerámica para residentes
+              <br />
+              {">"} Primeros auxilios psicológicos
+            </div>
+          </div>
+        </section>
+        <section className="mt-20">
+          <Subtitle>Skills</Subtitle>
+          <div className="grid grid-cols-4 my-10">
+            <ul className="list-disc list-inside">
+              <li>Disciplina</li>
+              <li>Proactividad</li>
+              <li>Comunicación</li>
+              <li>Trabajo en equipo</li>
+              <li>Liderazgo</li>
+              <li>Adaptabilidad</li>
+            </ul>
+            <ul className="list-disc list-inside">
+              <li>Atención al detalle</li>
+              <li>Organización</li>
+              <li>Pasión</li>
+              <li>Amabilidad</li>
+              <li>Resolución de conflictos</li>
+              <li>Inteligencia emocional</li>
+            </ul>
+            <ul className="list-disc list-inside">
+              <li>Fusion 360</li>
+              <li>Rhino 8</li>
+              <li>Adobe Illustrator</li>
+              <li>Adobe InDesign</li>
+              <li>Adobe Premier Pro</li>
+              <li>Adobe Lightroom</li>
+            </ul>
+            <ul className="list-disc list-inside">
+              <li>Redes sociales</li>
+              <li>Creación de contenido</li>
+              <li>CapCut</li>
+              <li>Canva</li>
+              <li>Microsoft Office</li>
+              <li>Diseño editorial</li>
+            </ul>
+          </div>
+        </section>
+        <section className="mt-20">
+          <Subtitle>Contacto</Subtitle>
+          <div className="my-10">
+            <a
+              href="mailto:carolinamalagambam@gmail.com"
+              className="text-5xl hover:underline"
+            >
+              carolinamalagambam@gmail.com
+            </a>
+            <div className="flex space-x-10 mt-5 text-7xl">
+              <a
+                href="https://www.instagram.com/caromalagamba/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-caro"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/carolina-malagamba-montejo-a4664a277/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-caro"
+              >
+                <FaLinkedin />
+              </a>
+            </div>
+          </div>
+        </section>
       </section>
-      <section className="mt-20"></section>
     </main>
   );
 }

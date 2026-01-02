@@ -16,7 +16,7 @@ export default function Home() {
         <GradientText
           animationSpeed={2}
           yoyo={false}
-          colors={["#ffffff", "#51ff97"]}
+          colors={["#ffffff", "#FFB3B3"]}
         >
           diseño
         </GradientText>
